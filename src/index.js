@@ -4,6 +4,7 @@ import './index.css';
 import { BrowserRouter } from 'react-router-dom';
 import RouterComponenets from './components/router';
 import Navbar from './context/navbar';
+import Footer from './context/footer';
 
 
 
@@ -11,7 +12,9 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
   <Navbar />
-   <RouterComponenets />
+  <RouterComponenets />
+  <Footer />
 
   </BrowserRouter>
+  
 );

@@ -102,6 +102,9 @@ h2 {
   font-weight: 600;
   line-height: 100%; 
  }
+ img {
+   cursor: pointer;
+ }
 }
 .wrapper_texts {
   display: flex;
@@ -139,6 +142,7 @@ h2 {
    border-radius: 5px;
    border: 1px solid #666;
    background: #FFF;
+   cursor: pointer;
 }
 .label_text {
    color: var(--text, #373737);
