@@ -32,9 +32,8 @@ const Motorjon = () => {
         <p className='motors'>Motors</p>
        </div>
     </div>
-  
 
-  <Main_items >
+ <Main_items >
 
  <Left_side className='Left_side'>
    <div className='box_left_side_b'>

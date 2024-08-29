@@ -124,8 +124,7 @@ export const campcar = {
         car: {
             img: "https://p.globalsources.com/IMAGES/PDT/B1197696118/Caravans-travel-trailers.jpg",
             CarName: "Freedom Finderr",
-            BrandName: "Blucamp",
-            Cost: "90,100,000",
+            BrandName: "Blucamp",Cost: "90,100,000",
         }
     },
     {
@@ -186,3 +185,4 @@ export const campcar = {
 
     ]
 }
+            

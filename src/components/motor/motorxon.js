@@ -223,9 +223,8 @@ h2 {
    background: url(<path-to-image>) lightgray 50% / cover no-repeat, #FFF;
    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.10);
 }
-
-
 `
+/////////////////////////////////////////////////////////
 
 
 export const Right_side = styled.div `
@@ -305,7 +304,7 @@ margin-top: 50px;
    cursor: pointer;
 }
 .four_in:hover {
-   background-color: rgba(213, 213, 213, 0.24);
+   background-color: rgba(213, 213, 213, 0.40);
 }
 .sixteen {
    width: 80px;
@@ -326,6 +325,9 @@ margin-top: 50px;
    justify-content: center;
    cursor: pointer;
 }
+.icon_down:hover {
+   background-color: rgba(213, 213, 213, 0.40);
+}
 .menu_dropDown {
    display: flex;
 }
@@ -339,6 +341,9 @@ margin-top: 50px;
    justify-content: center;
    cursor: pointer;
 }
+.menu:hover {
+   background-color: rgba(213, 213, 213, 0.40);
+}
 .dropdown {
    width: 40px;
    height: 30px;
@@ -348,7 +353,9 @@ margin-top: 50px;
    align-items: center;
    justify-content: center;
    cursor: pointer;
-
+}
+.dropdown:hover {
+   background-color: rgba(213, 213, 213, 0.40);
 }
 
 
