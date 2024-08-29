@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import "./motorbek.css";
-import { Left_side, Main_items, Main_Murodil, Right_side } from './motorxon';
+import { Left_side, Main_items, Main_Murodil, Right_side,} from './motorxon';
 import some from "../../assets/down_icon_more_larger.svg";
 import car_first from "../../assets/first_car.png";
 import car_second from "../../assets/second_car.png";
@@ -239,7 +239,9 @@ const Motorjon = () => {
 </Right_side>
 
 
+
 </Main_items>
+
 
 
 

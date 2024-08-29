@@ -4,10 +4,16 @@ import styled from "styled-components";
 export const NavbarOn = styled.div `
    padding-top: 15px;
    display: flex;
-   padding-left: 10px;
+   padding-left: 70px;
    
- h1 {
+.sss {
    flex: 1;
+   img {
+      display: none;
+   }
+}
+
+h1 {
    display: flex;
    justify-content: center;
    align-items: center;
@@ -28,11 +34,61 @@ export const NavbarOn = styled.div `
 
  }
  .eng {
-   display: flex;
-   gap:  5px;
-   align-items: center;
+  display: flex;
+  gap:  5px;
+  align-items: center;
  }
+ .kal {
+ display: none;
+ }
+
+
+@media only screen and (max-width: 1240px) {
+  .sss {
+   flex: 3;
+   display: flex;
+   align-items: center;
+   justify-content: start;
+   gap: 16px;
+  }
+   .three_line_icon {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+ } 
+ h1 {
+  
+ }
+ .Axror_div {
+   flex: 3;
+   display: flex;
+   justify-content: end;
+   align-items: center;
+   padding-right: 80px;
+ } 
+@media only screen and (max-width: 710px) {
+   .three_line_icon {
+      display: none;
+   }
+   .person_img {
+      display: none;
+   }
+   .eng {
+      display: none;
+   }
+   .kal {
+      display: flex;
+      cursor: pointer;
+   }
+   
+ }
+}
+//////////////////////////////////////////
+
+
 `
+
 export const Nlink = styled(Link)``
 
 export const Murodil_div = styled.div `
@@ -40,6 +96,7 @@ export const Murodil_div = styled.div `
    flex: 3;
    justify-content: space-around;
    align-items: center;
+   
 
 .text_in {
    color: var(--text, #373737);
@@ -59,6 +116,16 @@ img {
    margin-left: 5px;
  }   
 }
+@media only screen and (max-width: 1240px) {
+   display: none;
+
+}
+
+@media only screen and (max-width: 710px) {
+   display: none;
+}
 
 `
+
+
 

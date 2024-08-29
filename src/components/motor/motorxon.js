@@ -33,15 +33,17 @@ export const Main_Murodil = styled.div `
 
 export const Main_items = styled.div `
 
-display: flex;
-justify-content: center;
-gap: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
 
-@media only screen and (max-width: 1130px) {
+@media only screen and (max-width: 1240px) {
 .Left_side {
-   display:none;
+  display:none;
  }
 }
+
+
 `
 
 export const Left_side = styled.div `
@@ -223,15 +225,23 @@ h2 {
    background: url(<path-to-image>) lightgray 50% / cover no-repeat, #FFF;
    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.10);
 }
+
 `
+
+export const Small_phone =styled.div `
+
+@media only screen and (max-width: 710px) {
+  display: none;
+}
+`
+
 /////////////////////////////////////////////////////////
 
 
 export const Right_side = styled.div `
-display: flex;
-flex-direction: column;
-margin-top: 50px;
-
+   display: flex;
+   flex-direction: column;
+   margin-top: 50px;
 
 .items_wrapper {
    display: flex;
@@ -358,5 +368,20 @@ margin-top: 50px;
    background-color: rgba(213, 213, 213, 0.40);
 }
 
+@media only screen and (max-width: 1240px) {
+   .items_wrapper {
+      width: 674px;
+   }
+}
+
+@media only screen and (max-width: 710px) {
+  .items_wrapper {
+   display: none;
+  }
+}
+
 
 `
+
+
+
