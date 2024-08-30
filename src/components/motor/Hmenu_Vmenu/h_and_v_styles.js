@@ -347,7 +347,8 @@ button:hover {
 
 }
 
-
+@media only screen and (max-width: 710px) {
+  
 `
 
 
