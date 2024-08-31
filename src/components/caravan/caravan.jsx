@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
-import "./motorbek.css";
-import { Left_side, Main_items, Main_Murodil, Right_side,} from './motorxon';
+import React, { useState } from 'react'
+import { Left_side, Main_Ahror, Main_items, Right_side } from './caravanStyle';
 import some from "../../assets/down_icon_more_larger.svg";
 import car_first from "../../assets/first_car.png";
 import car_second from "../../assets/second_car.png";
@@ -8,13 +7,12 @@ import car_third from "../../assets/third_car.png";
 import iconh from "../../assets/down_icon_more_larger.svg";
 import menu from "../../assets/menu_icon.png";
 import drop_down from "../../assets/drop_down.png";
-import Hmenu from './Hmenu_Vmenu/hmenu';
-import Vmenu from './Hmenu_Vmenu/vmenu';
 import down_icon from "../../assets/down_iconss.svg";
+import Hmenu from '../motor/Hmenu_Vmenu/hmenu';
+import Vmenu from '../motor/Hmenu_Vmenu/vmenu';
 
 
-
-const Motorjon = () => {
+const Caravan = () => {
   const [active, setactive] = useState(true);
   function eachMenu () {
     setactive(true);
@@ -23,13 +21,13 @@ const Motorjon = () => {
     setactive(false);
   }
   return (
-    <Main_Murodil>
+    <Main_Ahror>
 
-    <div className='background_fon'>
+    <div className='background_fon_caravan'>
        <div className='wrapper_of_text_center'>
         <p className='home_motors'>Home / Motors</p>
         <p className='our_range'>Our ranges</p>
-        <p className='motors'>Motors</p>
+        <p className='motors'>Caravan</p>
        </div>
     </div>
 
@@ -257,7 +255,7 @@ const Motorjon = () => {
 
   <div>
       {active ? <Hmenu /> : <Vmenu />}           
-  </div>
+  </div> 
 
 
 
@@ -272,9 +270,8 @@ const Motorjon = () => {
 
 
 
-
-   </Main_Murodil>
+   </Main_Ahror>
   )
 }
 
-export default Motorjon;
+export default Caravan;

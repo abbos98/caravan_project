@@ -9,3 +9,53 @@
     display: flex;
     margin-top: 22px;
 }
+
+.wrapper_vs_img {
+    background-image: url(../../assets/blackFont_car.png);
+}
+
+.background_fon_caravan {
+    background-image: url(../../assets/caravan_main.jpg);
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 22px;
+}
+.background_fon_tuningCar {
+    background-image: url(../../assets/tuningCar.png); 
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 22px;
+    
+} 
+.background_fon_UcedCar {
+    background-image: url(../../assets/usedCar.png);
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 22px;
+}
+.background_fon_CampingCar {
+    background-image: url(../../assets/campingPlace.png);
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 22px;
+}

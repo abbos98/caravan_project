@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Main_Murodil = styled.div `
+export const Main_Javohir = styled.div `
 
 .wrapper_of_text_center {
    display: flex;
@@ -522,11 +522,5 @@ export const Right_side = styled.div `
 }
 
 
-
-
-
-
 `
-
-
 

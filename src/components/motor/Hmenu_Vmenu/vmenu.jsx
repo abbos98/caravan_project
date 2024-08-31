@@ -1,7 +1,7 @@
 import React from 'react'
 import { campcar } from '../../mock/motorDetail';
 import { NavLink } from 'react-router-dom';
-import {Vmenucha,} from './h_and_v_styles';
+import {Lengmenus, RightNavbarRow, Vmenucha,} from './h_and_v_styles';
 import { ValueScope } from 'ajv/dist/compile/codegen';
 import star from "../../../assets/star.svg";
 
@@ -13,43 +13,32 @@ const Vmenu = () => {
     <div>
         {data.map((value, index) => {
             return (
-              <Vmenucha>
-                <div key={index}>
-                    <NavLink to={`/motor/${value.id}`}
-                    style= {{textDecoration: "none", color: "black"}}>
-                      <div className='main_main'>
-                      <div className='Vmenu_boxes'>
-                        <div className='vmenu_left_side_img'>
-                           <img src={value.car.img} alt='car_image'/>
-                        </div>
+              <RightNavbarRow>
+              {data.map((value, index) => {
+               return(
+                   <div key={index}>
+                       <NavLink to={`/motor/${value.id}`}
+                       style={{textDecoration:'none',color:'black'}}>
+                       <div className='tuzatish'>
+                       <Lengmenus className='Lengmenus'>
+                           <div className='Car0'><img src={value.car.img} alt="car-img" /></div>
 
-                       <div className='vmenu_right_side_text'>
-
-                        <div className='name_car_cost_wrapper'>
-                          <p className='carName_text'>{value.car.CarName}</p>
-                          <p className='carCost_num'>{value.car.Cost}</p>
-                        </div>
-
-                        <div className='brand_name_and_grade_wrapper'>
-                           <p className='brandName_text'>{value.car.BrandName}</p>
-                           <div className='star_number_wrapper'>
-                            <img className='vMenu_start' src={star} alt='star'/>
-                            <p className='number_num'>5.3</p>
+                           <div className='menu-wrap'>
+                           <div className='to-wrap'><h3> {value.car.CarName}</h3> <h2>{value.car.Cost}</h2></div>
+                           <div className='to-wrap'><h5>{value.car.BrandName}</h5> <div><img src={star} alt="star" /><p>5.3</p></div></div>
+                           <div className='ww'>
+                             <button>Order</button><button>Camper</button>
                            </div>
-                        </div>
+                           </div>
 
-                        <div className='vmenu_buttons_wrapper'>
-                           <button>Order</button>
-                           <button>Сompare</button>
-                        </div>
-
-                        </div>
-                      </div>
-                    </div>
-                    </NavLink>
-
-                </div>
-            </Vmenucha>
+                       </Lengmenus>
+                       </div>
+                       </NavLink>
+                   </div>
+               )
+              })}
+           </RightNavbarRow>
+       
             )
         })}
     </div>

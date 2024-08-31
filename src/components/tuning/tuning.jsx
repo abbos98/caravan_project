@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import "./motorbek.css";
-import { Left_side, Main_items, Main_Murodil, Right_side,} from './motorxon';
+import { Left_side, Main_Berdiyor, Main_items, Right_side } from './tuningStyle';
 import some from "../../assets/down_icon_more_larger.svg";
 import car_first from "../../assets/first_car.png";
 import car_second from "../../assets/second_car.png";
@@ -8,28 +7,27 @@ import car_third from "../../assets/third_car.png";
 import iconh from "../../assets/down_icon_more_larger.svg";
 import menu from "../../assets/menu_icon.png";
 import drop_down from "../../assets/drop_down.png";
-import Hmenu from './Hmenu_Vmenu/hmenu';
-import Vmenu from './Hmenu_Vmenu/vmenu';
 import down_icon from "../../assets/down_iconss.svg";
+import Hmenu from '../motor/Hmenu_Vmenu/hmenu';
+import Vmenu from '../motor/Hmenu_Vmenu/vmenu';
 
 
-
-const Motorjon = () => {
-  const [active, setactive] = useState(true);
-  function eachMenu () {
-    setactive(true);
-  }
-  function viewMenu () {
-    setactive(false);
-  }
+const Tuning = () => {
+    const [active, setactive] = useState(true);
+    function eachMenu () {
+      setactive(true);
+    }
+    function viewMenu () {
+      setactive(false);
+    }
   return (
-    <Main_Murodil>
+    <Main_Berdiyor>
 
-    <div className='background_fon'>
+    <div className='background_fon_tuningCar'>
        <div className='wrapper_of_text_center'>
         <p className='home_motors'>Home / Motors</p>
         <p className='our_range'>Our ranges</p>
-        <p className='motors'>Motors</p>
+        <p className='motors'>Tuning</p>
        </div>
     </div>
 
@@ -257,7 +255,7 @@ const Motorjon = () => {
 
   <div>
       {active ? <Hmenu /> : <Vmenu />}           
-  </div>
+  </div> 
 
 
 
@@ -272,9 +270,8 @@ const Motorjon = () => {
 
 
 
-
-   </Main_Murodil>
+   </Main_Berdiyor>
   )
 }
 
-export default Motorjon;
+export default Tuning;

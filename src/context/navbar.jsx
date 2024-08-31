@@ -16,13 +16,13 @@ const Navbar = () => {
     <Murodil_div>
       <Nlink to={"/motor"} style = {{textDecoration: "none", color: "black"}} ><div className='text_icon'><h1 className='text_in'>Motor</h1>
       <img src={infort} alt='down_in'/></div></Nlink>
-      <Nlink to={"/motor"} style = {{textDecoration: "none", color: "black"}}><div className='text_icon'><h1 className='text_in'>Caravan</h1>
+      <Nlink to={"/caravan"} style = {{textDecoration: "none", color: "black"}}><div className='text_icon'><h1 className='text_in'>Caravan</h1>
       <img src={infort} alt='down_in'/></div></Nlink>
-      <Nlink to={"/motor"} style = {{textDecoration: "none", color: "black"}}><div className='text_icon'><h1 className='text_in'>Tuning</h1>
+      <Nlink to={"/tuning"} style = {{textDecoration: "none", color: "black"}}><div className='text_icon'><h1 className='text_in'>Tuning</h1>
       <img src={infort} alt='down_in'/></div></Nlink>
-      <Nlink to={"/motor"} style = {{textDecoration: "none", color: "black"}}><div className='text_icon'><h1 className='text_in'>Used Car</h1>
+      <Nlink to={"/usedcar"} style = {{textDecoration: "none", color: "black"}}><div className='text_icon'><h1 className='text_in'>Used Car</h1>
       <img src={infort} alt='down_in'/></div></Nlink>
-      <Nlink to={"/motor"} style = {{textDecoration: "none", color: "black"}}><div className='text_icon'><h1 className='text_in'>Camping Place</h1>
+      <Nlink to={"/camping place "} style = {{textDecoration: "none", color: "black"}}><div className='text_icon'><h1 className='text_in'>Camping Place</h1>
       <img src={infort} alt='down_in'/></div></Nlink> 
     </Murodil_div>  
 
@@ -41,4 +41,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Navbar;
