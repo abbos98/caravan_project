@@ -8,10 +8,17 @@
     align-items: center;
     display: flex;
     margin-top: 22px;
+    background-color:rgba(0,0,0,0.80);
 }
 
 .wrapper_vs_img {
     background-image: url(../../assets/blackFont_car.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 .background_fon_caravan {
