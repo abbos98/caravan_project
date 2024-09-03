@@ -1,11 +1,12 @@
 import React from 'react';
-import { Additional_info, Additional_info_three, Additional_info_two, CarInfo, MainDetailWrapper, Tidying_wrapper } from './detailDesign';
+import { Additional_info, Additional_info_three, Additional_info_two, CarInfo, Comfort_wrapper, Comfort_wrapper_second, Comfort_wrapper_third, MainDetailWrapper, Tidying_away, Tidying_away_second, Tidying_wrapper } from './detailDesign';
 import { Link, useParams } from 'react-router-dom';
 import { campcar } from '../mock/motorDetail';
 import comfort_img from '../../assets/comfort_image.png';
 import tidy_car from '../../assets/tidying_image.png';
 import vantilated_img from '../../assets/ventilated_img.png';
 import easy from '../../assets/Easy_access_img.png';
+import heating from '../../assets/heting_img.png';
 
 
 const Detail = () => {
@@ -53,88 +54,87 @@ const Detail = () => {
          </div>
 
          <div className='right_side_info_wrap'>
-          <p className='mock_info_inside'>{value.car.company}</p>
-          <p className='mock_info_inside'>{value.car.place}</p>
-          <p className='mock_info_inside'>{value.car.license}</p>
+          <h3 className='mock_info_inside'>{value.car.company}</h3>
+          <h3 className='mock_info_inside'>{value.car.place}</h3>
+          <h4 className='mock_info_inside'>{value.car.license}</h4>
          </div>
       </div>
          </div>
         </div>
-
     
-    <Additional_info>
-      <div className='comfort_wrapper'>
-        <p className='comport_text'>Comfort</p>
-        <p className='lorem_text'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae id, inventore nulla perferendis quisquam totam officia deserunt enim iusto, ipsa quasi fuga, asperiores officiis sunt est vero architecto mollitia sequi! Deserunt, consectetur. Ea, laudantium enim voluptate nihil unde voluptatem ad repudiandae provident repellendus, architecto temporibus officiis sint accusantium cum doloribus.</p>
-      </div>
 
-      <div className='comfort_img'>
-       <img src={comfort_img} alt='image_car'/>
-      </div>
+  <Comfort_wrapper>
+     
+     <div className='comfort_text_wrapper'>
+         <p className='comfort_text'>Comfort</p>
+         <p className='comfort_lorem'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, ab incidunt harum nostrum soluta laboriosam fugit optio minus odit? Minima similique laudantium molestias ipsum maiores natus, eaque dignissimos, corrupti provident, rerum sapiente perspiciatis autem sunt! Labore dolorem, placeat culpa excepturi, quia dolorum sunt quibusdam nam officia nemo id. Enim voluptates ad deserunt eaque repudiandae quos harum aperiam aliquid eligendi delectus.</p>
+     </div>
 
-    </Additional_info>
+     <div className='comfort_img_wrapper'>
+       <img className='comfort_image' src={comfort_img} alt='comfort_image'/>
+     </div>
 
+  </Comfort_wrapper>
 
-     <Tidying_wrapper>
-       <div className='tidying_img'>
-         <img src={tidy_car} alt='inside_image'/>
-       </div>
+  <Tidying_away>
 
-       <div className='tidying_text_wrapper'>
-          <p className='tidying_text'>Tidying away is child’s play!</p>
-          <p className='tidying_lorem'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates laudantium sequi perferendis, ex consectetur eos pariatur fuga nulla id explicabo, vitae repudiandae. Quibusdam sint voluptate praesentium ratione suscipit quo alias nemo atque quisquam! Labore iusto dolore, aut, praesentium libero vitae ad incidunt, exercitationem vel eos soluta necessitatibus? Nulla accusantium doloribus, maxime repudiandae optio eius esse tempora amet qui est! Eius.</p>
+    <div className='tyning_img_wrapper'>
+        <img className='tyning_image' src={tidy_car} alt='tyning_image'/>
+    </div>
+
+    <div className='tyning_text_wrapper'>
+      <p className='tidying_text'>Tidying away is child’s play!</p>
+      <p className='tidying_lorem'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rutrum nibh urna sagittis arcu natoque lectus cursus felis. Nec, felis risus, id in proin sed proin iaculis mi. Turpis ac ut metus, amet, pulvinar. Eget amet dictum luctus quis molestie tellus vitae.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rutrum nibh urna sagittis arcu natoque lectus cursus felis. Nec, felis risus, id in proin sed proin iaculis mi.</p>
+    </div>
+
+  </Tidying_away>
+
+  <Comfort_wrapper_second>
+     
+     <div className='comfort_text_wrapper'>
+         <p className='comfort_text'>Ventilated , Lit up</p>
+         <p className='comfort_lorem'>In our vans and motorhomes, all our body lighting is 100% LED: a guarantee of energy efficiency and durability.As for ventilation, we also often offer double ventilation in the bathroom (Skylight + window), which is very popular with our customers…Camper relies on legendary Seitz windows. They offer the best insulation and are also the easiest to use and safest because they can’t be removed from the outside.</p>
+     </div>
+
+     <div className='comfort_img_wrapper'>
+       <img className='comfort_image' src={vantilated_img} alt='comfort_image'/>
+     </div>
+
+  </Comfort_wrapper_second>
+
+  <Tidying_away_second>
+
+    <div className='tyning_img_wrapper'>
+        <img className='tyning_image' src={easy} alt='tyning_image'/>
+    </div>
+
+    <div className='tyning_text_wrapper'>
+      <p className='tidying_text'>Easy access</p>
+      <p className='tidying_lorem'>We add little touches that your joints will thank you for…All our motorhomes are equipped with a built-in step to facilitate entry to the vehicleAll our vans are equipped with an electric step.</p>
+    </div>
+
+  </Tidying_away_second>
+
+  <Comfort_wrapper_third>
+     
+     <div className='comfort_text_wrapper'>
+         <p className='comfort_text'>Heating when driving</p>
+         <p className='comfort_lorem'>Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago.One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival.</p>
+         <div className='heating_butts_wrapper'>
+            <button className='heating_add'>ADD TO CART</button>
+            <button className='heating_compare'>COMPARE</button>
          </div>
+     </div>
 
-     </Tidying_wrapper>
+     <div className='comfort_img_wrapper'>
+       <img className='comfort_image' src={heating} alt='comfort_image'/>
+     </div>
 
-     <Additional_info_two>
-      <div className='comfort_wrapper'>
-        <p className='comport_text'>Ventilated , Lit up</p>
-        <p className='lorem_text_two'>In our vans and motorhomes, all our body lighting is 100% LED: a guarantee of energy efficiency and durability.As for ventilation, we also often offer double ventilation in the bathroom (Skylight + window), which is very popular with our customers…Camper relies on legendary Seitz windows. They offer the best insulation and are also the easiest to use and safest because they can’t be removed from the outside.												
+  </Comfort_wrapper_third>
 
 
-        </p>
-      </div>
 
-      <div className='comfort_img'>
-       <img src={vantilated_img} alt='image_car'/>
-      </div>
-
-    </Additional_info_two>
-
-    <Tidying_wrapper>
-       <div className='tidying_img'>
-         <img src={easy} alt='inside_image'/>
-       </div>
-
-       <div className='tidying_text_wrapper'>
-          <p className='tidying_text'>Easy access</p>
-          <p className='tidying_lorem_two'>We add little touches that your joints will thank you for…All our motorhomes are equipped with a built-in step to facilitate entry to the vehicle All our vans are equipped with an electric step.
-          </p>
-         </div>
-
-     </Tidying_wrapper>
-
-     <Additional_info_three>
-      <div className='comfort_wrapper'>
-        <p className='comport_text'>Heating when driving</p>
-        <p className='lorem_text_three'>Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago. One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival.</p>
-      <div className='last_bottons_wrapper'>
-         <button>ADD TO CART</button>
-         <button>COMPARE</button>
-      </div>
-      
-      </div>
-
-      <div className='comfort_img'>
-       <img src={vantilated_img} alt='image_car'/>
-      </div>
-
-    </Additional_info_three>
-
- 
-
-    </CarInfo>
+  </CarInfo>
 
 
 

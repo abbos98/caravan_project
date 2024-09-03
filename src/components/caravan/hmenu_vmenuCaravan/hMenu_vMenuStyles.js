@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 // Hmenu starting //
 
-export const Hmenucha = styled.div`
+export const HmenuCaravan = styled.div`
   display: grid;
   grid-template-areas: "a a a a";
   gap: 20px;
@@ -226,7 +226,7 @@ margin-bottom: 80px;
 // Vmenu starting //
 
 // Vmanu
-export const RightNavbarRow = styled.div`
+export const VmenuCaravan = styled.div`
 display: grid;
 grid-template-areas: " i ";
 align-items: center;

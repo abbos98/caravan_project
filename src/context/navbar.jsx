@@ -30,7 +30,7 @@ const Navbar = () => {
        <div>
         <img className='car_iconn' src={card} alt="img" /> 
        </div> 
-       <div className='person_img'><img src={person} alt="img" /></div> 
+       <Nlink to = {"/login"}><div className='person_img'><img src={person} alt="img" /></div></Nlink>
 
        <div className='eng'><h5>Eng</h5><img src={down} alt="img" /></div>
 

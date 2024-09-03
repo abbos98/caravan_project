@@ -25,7 +25,7 @@ const Caravan = () => {
 
     <div className='background_fon_caravan'>
        <div className='wrapper_of_text_center'>
-        <p className='home_motors'>Home / Motors</p>
+        <p className='home_motors'>Home / Caravan</p>
         <p className='our_range'>Our ranges</p>
         <p className='motors'>Caravan</p>
        </div>

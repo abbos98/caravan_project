@@ -1,17 +1,16 @@
 import React from 'react';
-import { campcar } from '../../mock/motorDetail';
 import { NavLink } from 'react-router-dom';
-import { Hmenucha } from './h_and_v_styles';
 import star from "../../../assets/star.svg";
 import { caravanCar } from '../../mock/caravanDetails';
+import { HmenuCaravan } from './hMenu_vMenuStyles';
 
-const Hmenu = () => {
-  const data = campcar.maindata;
-  console.log(data);
+const HmenuTwo = () => {
+  const dataTwo = caravanCar.mainCon;
+  console.log(dataTwo);
   
      return (
-     <Hmenucha>
-         {data.map((value, index) => {
+     <HmenuCaravan>
+         {dataTwo.map((value, index) => {
              return (
                  <div key={index}>
                      <NavLink to={`/motor/${value.id}`}
@@ -33,8 +32,8 @@ const Hmenu = () => {
                  </div>
              )
          })}
-     </Hmenucha>
+     </HmenuCaravan>
    )
  }
 
-export default Hmenu;
+export default HmenuTwo;

@@ -25,7 +25,7 @@ const Tuning = () => {
 
     <div className='background_fon_tuningCar'>
        <div className='wrapper_of_text_center'>
-        <p className='home_motors'>Home / Motors</p>
+        <p className='home_motors'>Home / Tuning</p>
         <p className='our_range'>Our ranges</p>
         <p className='motors'>Tuning</p>
        </div>

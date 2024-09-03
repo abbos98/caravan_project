@@ -25,7 +25,7 @@ const UsedCar = () => {
 
 <div className='background_fon_UcedCar'>
    <div className='wrapper_of_text_center'>
-    <p className='home_motors'>Home / Motors</p>
+    <p className='home_motors'>Home / Used Car</p>
     <p className='our_range'>Our ranges</p>
     <p className='motors'>Used Car</p>
    </div>

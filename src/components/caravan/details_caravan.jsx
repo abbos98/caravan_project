@@ -6,8 +6,8 @@ import { MainAidal } from './details_caravanStyle';
 
 const Details_caravan = () => {
     const {id} = useParams ();
-    const abs = caravanCar.mainCon;
-    const filterContainer = abs.filter((value) => value.id === parseInt(id));
+    const kom = caravanCar.mainCon;
+    const filterwrapper = kom.filter((value) => value.id === parseInt(id));
   return (
     <MainDetailWrapperCaravan>
     <div className='wrapper_vs_img'>
@@ -22,13 +22,13 @@ const Details_caravan = () => {
 
 
  <MainAidal> 
-    {filterContainer.map((value, index) => {
+    {filterwrapper.map((value, index) => {
     return (
      <div key={index}>
 
       <div>
         <div className='image_side_Aidal'>
-          <img src={value.car.img} alt='car'/>
+          <img src={value.car.CarName} alt='car'/>
         </div>
 
        <div className='klkl'>

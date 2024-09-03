@@ -1,5 +1,4 @@
 .background_fon {
-    background-image: url(./../../assets/card_main.png);
     height: 350px;
     background-position: center;
     background-repeat: no-repeat;
@@ -8,7 +7,7 @@
     align-items: center;
     display: flex;
     margin-top: 22px;
-    background-color:rgba(0,0,0,0.80);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(../../assets/card_main.png);
 }
 
 .wrapper_vs_img {
@@ -22,7 +21,7 @@
 }
 
 .background_fon_caravan {
-    background-image: url(../../assets/caravan_main.jpg);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(../../assets/caravan_main.jpg);
     height: 350px;
     background-position: center;
     background-repeat: no-repeat;
@@ -33,7 +32,7 @@
     margin-top: 22px;
 }
 .background_fon_tuningCar {
-    background-image: url(../../assets/tuningCar.png); 
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(../../assets/tuningCar.png);
     height: 350px;
     background-position: center;
     background-repeat: no-repeat;
@@ -45,7 +44,7 @@
     
 } 
 .background_fon_UcedCar {
-    background-image: url(../../assets/usedCar.png);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(../../assets/usedCar.png);
     height: 350px;
     background-position: center;
     background-repeat: no-repeat;
