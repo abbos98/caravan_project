@@ -31,7 +31,6 @@ h1 {
    align-items: center;
    justify-content: start;
    padding-left: 15px;
-
  }
  .eng {
   display: flex;
@@ -50,6 +49,10 @@ h1 {
    align-items: center;
    justify-content: start;
    gap: 16px;
+   img {
+      display: flex;
+      cursor: pointer;
+   }
   }
    .three_line_icon {
   display: flex;
@@ -57,9 +60,6 @@ h1 {
   height: 30px;
   cursor: pointer;
  } 
- h1 {
-  
- }
  .Axror_div {
    flex: 3;
    display: flex;
@@ -68,6 +68,11 @@ h1 {
    padding-right: 80px;
  } 
 @media only screen and (max-width: 710px) {
+   .sss {
+      img{
+         display: none;
+      }
+   }
    .three_line_icon {
       display: none;
    }

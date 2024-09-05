@@ -23,8 +23,8 @@ const Motorjon = () => {
     setactive(false);
   }
   return (
-    <Main_Murodil>
-
+    
+<Main_Murodil>
     <div className='background_fon'>
        <div className='wrapper_of_text_center'>
         <p className='home_motors'>Home / Motors</p>
@@ -32,10 +32,9 @@ const Motorjon = () => {
         <p className='motors'>Motors</p>
        </div>
     </div>
+<Main_items >
 
- <Main_items >
-
- <Left_side className='Left_side'>
+<Left_side className='Left_side'>
    <div className='box_left_side_b'>
        <h2>Cost of car</h2>
         
@@ -205,7 +204,7 @@ const Motorjon = () => {
          </div>
       </div>
   
- </Left_side>
+</Left_side>
 
 
  
@@ -248,7 +247,6 @@ const Motorjon = () => {
      <input className='select_phone' placeholder='Select'></input> <div className='phone_inside_icon'><img src={down_icon} alt='down_icon'/></div>
      <div className='phone_sixteen'>60<div className='inside_down_icons'><img src={down_icon} alt='down_icon'/></div></div>
   </div>
-
  </div>
 
 </div>
@@ -265,7 +263,6 @@ const Motorjon = () => {
 
 
 </Right_side>
-
 
 
 </Main_items>

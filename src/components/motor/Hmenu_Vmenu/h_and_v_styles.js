@@ -162,8 +162,8 @@ margin-bottom: 80px;
 /////////////////////////////////////////
 
 @media only screen and (max-width: 710px) {
- display: grid;
- grid-template-areas: "a";
+  display: grid;
+  grid-template-areas: "a";
 
   .boxcha {
   width: 354px;
@@ -227,35 +227,36 @@ margin-bottom: 80px;
 
 // Vmanu
 export const RightNavbarRow = styled.div`
-display: grid;
-grid-template-areas: " i ";
-align-items: center;
-justify-content: center;
-padding: 20px 0px;
-row-gap: 20px;
-.tuzatish {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} 
+  display: grid;
+  grid-template-areas: " i ";
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0px;
+  row-gap: 20px;
 
-`;
-export const Lengmenus = styled.div`
-    width: 955px;
-    height: 180px;
-    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.40);
-    border-radius: 18px;
-    margin-top: 20px;
-    padding: 18px;
-    display: flex;
-    .Car0 img{
-    width: 280px;
-    height: 143px;
-    border-radius: 20px;
+.tuzatish {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} 
+.Lengmenus{
+  max-width: 955px;
+  width: 100%;
+  height: 180px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.40);
+  border-radius: 18px;
+  margin-top: 20px;
+  padding: 18px;
+  display: flex;
+.Car0 img{
+  max-width: 280px;
+  width: 100%;
+  height: 143px;
+  border-radius: 20px;
 }
 .menu-wrap{
-    width: 100%;
-    
+    max-width:100%;
+    width: 100%;    
 }
 .to-wrap{
     display: flex;
@@ -278,37 +279,39 @@ h5{
 }
 .ww button {
   width: 100%;
-height: 35px;
-font-size: 14px;
-border-radius: 10px;
-border: 1px solid var(--blue, #006DAB);
-background-color: white;
-color: #006DAB;
-cursor: pointer;
-margin-top: 13px;
+  height: 35px;
+  font-size: 14px;
+  border-radius: 10px;
+  border: 1px solid var(--blue, #006DAB);
+  background-color: white;
+  color: #006DAB;
+  cursor: pointer;
+  margin-top: 13px;
 }
 .ww :hover{
     background-color:  #006DAB;
     color: white;
+ }
 }
-@media only screen and (max-width: 960px){
+
+
+
+
+
+
+
+@media only screen and (max-width: 710px){
   width: 100%;
+
+.Lengmenus {
+  margin: 7px;
 }
-@media only screen and (max-width: 560px){
-    .Car0 img{
-        width: 200px;
-    }
+
+
 }
-@media only screen and (max-width: 500px){
-    .Car0 img{
-        width: 150px;
-    }
-}
-@media only screen and (max-width: 440px){
-    .Car0 img{
-        width: 100px;
-    }
-}
+
+
+
 `;
 
 

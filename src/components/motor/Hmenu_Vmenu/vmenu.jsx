@@ -20,7 +20,7 @@ const Vmenu = () => {
                        <NavLink to={`/motor/${value.id}`}
                        style={{textDecoration:'none',color:'black'}}>
                        <div className='tuzatish'>
-                       <Lengmenus className='Lengmenus'>
+                       <div className='Lengmenus'>
                            <div className='Car0'><img src={value.car.img} alt="car-img" /></div>
 
                            <div className='menu-wrap'>
@@ -31,7 +31,7 @@ const Vmenu = () => {
                            </div>
                            </div>
 
-                       </Lengmenus>
+                       </div>
                        </div>
                        </NavLink>
                    </div>

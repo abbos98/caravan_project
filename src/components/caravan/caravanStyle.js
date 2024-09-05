@@ -525,9 +525,3 @@ export const Right_side = styled.div `
 `
 /////////////////////////////////////////////
 
-// Caravan mockdate //
-
-export const MainDetailWrapperCaravan = styled.div`
-
-
-`

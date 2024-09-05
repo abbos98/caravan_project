@@ -35,8 +35,9 @@ const RegisterComponent = () => {
            <p className='keep_text_me'>Keep me logged in</p>
         </div>
 
-    <div className='register_button_wrapper'></div>
+    <Link to={'/createaccount'}><div className='register_button_wrapper'>
            <button className='register_butt_text'>REGISTRATE</button>
+     </div> </Link>
       </div>
      
 

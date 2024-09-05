@@ -31,6 +31,7 @@ const RouterComponenets = () => {
         <Route path = "*" element={<NotFoundComponent />} />
         <Route path = "/login" element={<LoginComponent />} />
         <Route path = "/register" element={<RegisterComponent />} />
+        <Route path = "/createaccount" element={<Motorjon />} /> 
     </Routes>
 
     {!navbarContainer && <Footer />}

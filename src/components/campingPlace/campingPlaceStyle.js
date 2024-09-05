@@ -39,11 +39,10 @@ export const WrapperCampingCar = styled.div`
   justify-content: center;
   row-gap: 110px;
   column-gap: 20px;
-
-
 }
 .firstImage {
-  width: 395px;
+  max-width: 395px;
+  width: 100%;
   height: 300px;
   flex-shrink: 0;
   border-radius: 10px;
@@ -66,6 +65,25 @@ export const WrapperCampingCar = styled.div`
   margin-top: 5px;
 }
 
+@media only screen and (max-width: 1240px) {
+
+.images_wrapper {
+  display: grid;
+  grid-template-areas: 'a a';
+}  
+}
+
+
+@media only screen and (max-width: 710px) {
+
+
+.images_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+}
 
 `
 

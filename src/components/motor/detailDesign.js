@@ -168,7 +168,7 @@ img {
   line-height: normal;
 }
 
-@media only screen and (max-width: 1210px) {
+@media only screen and (max-width: 710px) {
 
 
 .top_sideCar_detail{

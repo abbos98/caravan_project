@@ -244,9 +244,9 @@ export const Right_side = styled.div `
    margin-top: 50px;
 
 
-   .phone_container {
-      display: none;
-   }
+.phone_container {
+ display: none;
+}
 .items_wrapper {
    display: flex;
    align-items: center;
@@ -258,7 +258,6 @@ export const Right_side = styled.div `
 .item_text_wrapper {
    display: flex;
    align-items: center;
-
 }
 .item {
    color: var(--text, #373737);
@@ -392,6 +391,8 @@ export const Right_side = styled.div `
 
 .phone_container {
    display: flex;
+   align-items: center;
+   justify-content: center;
 }  
 .phone_items_wrapper {
    display: flex;
@@ -459,6 +460,8 @@ export const Right_side = styled.div `
   align-items: center;
   justify-content: space-between;
   margin-top: 30px;
+  border-bottom: 1px solid gray;
+  padding-bottom: 10px;
  }
 .phone_sort_by {
   color: var(--text, #373737);
@@ -467,7 +470,6 @@ export const Right_side = styled.div `
   font-weight: 500;
   line-height: 100%; 
  }
-
 .select_phone {
   width: 176px;
   height: 30px;
