@@ -3,6 +3,7 @@ import { WrapperCampingCar } from './campingPlaceStyle';
 import first_img from '../../assets/CampingCarImg_first.png';
 import second_img from '../../assets/CampingCarImg_second.png';
 import third_img from '../../assets/CampingCarImg_third.png';
+import { Link, NavLink } from 'react-router-dom';
 
 
 const CampingPlace = () => {
@@ -17,11 +18,11 @@ const CampingPlace = () => {
 
       <div className='images_wrapper'>
 
-          <div className='firstImage'>
+         <NavLink to={"/campingDetailsIn"}><div className='firstImage'>
             <img src={first_img} alt='first_Img'/>
             <p className='campingPlace_text'>Camping place name</p>
             <p className='locationText'>Location</p>
-          </div>
+          </div></NavLink>
           <div className='firstImage'>
             <img src={second_img} alt='first_Img'/>
             <p className='campingPlace_text'>Camping place name</p>

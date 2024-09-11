@@ -294,12 +294,6 @@ h5{
  }
 }
 
-
-
-
-
-
-
 @media only screen and (max-width: 710px){
   width: 100%;
 

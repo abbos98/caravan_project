@@ -5,13 +5,14 @@ import person from "../assets/person.svg";
 import down from "../assets/down_icon.svg";
 import infort from "../assets/infort_of.svg";
 import three_line from "../assets/three_line.png";
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
     <NavbarOn>
       <div className='sss'>
          <img src={three_line} alt='drow_down_icon'/>
-         <h1>Camper</h1>
+         <Link style={{textDecoration: "none"}} to={"/"}><h1>Camper</h1></Link>
       </div>
     <Murodil_div>
       <Nlink to={"/motor"} style = {{textDecoration: "none", color: "black"}} ><div className='text_icon'><h1 className='text_in'>Motor</h1>

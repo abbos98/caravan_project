@@ -11,6 +11,8 @@ import LoginComponent from './authentication/login'
 import Navbar from '../context/navbar'
 import RegisterComponent from './authentication/register'
 import Footer from '../context/footer'
+import CaruselComponent from './carusel/carusel'
+import CampingInside from './campingPlace/campingDetailsIn/campingInside'
 
 const RouterComponenets = () => {
   const location = useLocation();
@@ -32,6 +34,9 @@ const RouterComponenets = () => {
         <Route path = "/login" element={<LoginComponent />} />
         <Route path = "/register" element={<RegisterComponent />} />
         <Route path = "/createaccount" element={<Motorjon />} /> 
+        <Route path = "/" element={<CaruselComponent />} /> 
+        <Route path = "campingDetailsIn" element={<CampingInside />} /> 
+       
     </Routes>
 
     {!navbarContainer && <Footer />}

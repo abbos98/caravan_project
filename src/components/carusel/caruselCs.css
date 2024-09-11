@@ -1,0 +1,117 @@
+.main_page_conteiner {
+
+}
+.wrapper_main_page {
+  width: 1366px;
+  height: 525px;
+  padding-top: 30px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.40) 100%), cover no-repeat;
+}
+.d-block {
+  height: 525px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.recomend_wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  padding-bottom: 30px;
+}
+.recomend_text {
+  color: var(--text, #373737);
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.line_recomend {
+  width: 210px;
+  height: 2px;
+  background: #FF7A00;
+}
+
+
+
+
+.Blogs_wrapper_in {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+.blog_text {
+  color: var(--text, #373737);
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.blog_line {
+  width: 90px;
+  height: 2px;
+  background: #FF7A00;
+}
+
+
+
+.blogs_main_wrapper {
+  height: 536px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  gap: 80px;
+
+
+}
+.left_line_blogs {
+  max-width: 380px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+.lorem_firts {
+  color: #000;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.lorem_second {
+  color: var(--sariq, #FF7A00);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.lorem_third {
+  max-width: 380px;
+  width: 100%;
+  height: 107px;
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.right_line_blogs {
+  display: grid;
+  grid-template-areas: 'a a a';
+  
+  
+}
+.blogs_images {
+  width: 258px;
+  height: 258px;
+  border-radius: 20px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%),cover no-repeat;
+}
