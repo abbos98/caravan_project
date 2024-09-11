@@ -17,11 +17,11 @@ export const Hmenucha = styled.div`
   flex-direction: column;
   justify-content: space-between;
   padding: 10px;
+  background-color: red;
 }
 .boxcha_imgcha {
   border-radius: 20px;
   height: 132px;
-  
 }
 .wrapper_of_butt {
    display: flex;
@@ -39,6 +39,7 @@ h2 {
   padding-top: 18px;
  }
 }
+
 .number_grade {
   display:flex;
   width: 100%;
@@ -59,12 +60,12 @@ h2 {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  
+}
 img {
   width: 14px;
   height: 14px;
  }
-}
+
 .cost_car {
   color: var(--blue, #006DAB);
   font-size: 22px;
@@ -157,7 +158,7 @@ h3 {
   }
  }
 }
-margin-bottom: 80px; 
+
 
 /////////////////////////////////////////
 

@@ -18,69 +18,69 @@ const CampingPlace = () => {
 
       <div className='images_wrapper'>
 
-         <NavLink to={"/campingDetailsIn"}><div className='firstImage'>
+         <Link to={"/campingDetailsIn"} style={{textDecoration: "none"}}><div className='firstImage'>
             <img src={first_img} alt='first_Img'/>
             <p className='campingPlace_text'>Camping place name</p>
             <p className='locationText'>Location</p>
-          </div></NavLink>
-          <div className='firstImage'>
+          </div></Link>
+          <Link to={"/campingDetailsIn"} style={{textDecoration: "none"}}><div className='firstImage'>
             <img src={second_img} alt='first_Img'/>
             <p className='campingPlace_text'>Camping place name</p>
             <p className='locationText'>Location</p>
-          </div>
-          <div className='firstImage'>
+          </div></Link>
+          <Link to={"/campingDetailsIn"} style={{textDecoration: "none"}}> <div className='firstImage'>
             <img src={third_img} alt='third_Img'/>
             <p className='campingPlace_text'>Camping place name</p>
             <p className='locationText'>Location</p>
-          </div>
+          </div></Link>
 
-          <div className='firstImage'>
+          <Link to={"/campingDetailsIn"} style={{textDecoration: "none"}}><div className='firstImage'>
             <img src={first_img} alt='first_Img'/>
             <p className='campingPlace_text'>Camping place name</p>
             <p className='locationText'>Location</p>
-          </div>
-          <div className='firstImage'>
+          </div></Link>
+          <Link to={"/campingDetailsIn"} style={{textDecoration: "none"}}><div className='firstImage'>
             <img src={second_img} alt='first_Img'/>
             <p className='campingPlace_text'>Camping place name</p>
             <p className='locationText'>Location</p>
-          </div>
-          <div className='firstImage'>
+          </div></Link>
+          <Link to={"/campingDetailsIn"} style={{textDecoration: "none"}}> <div className='firstImage'>
             <img src={third_img} alt='third_Img'/>
             <p className='campingPlace_text'>Camping place name</p>
             <p className='locationText'>Location</p>
-          </div>
+          </div></Link>
 
-          <div className='firstImage'>
+          <Link to={"/campingDetailsIn"} style={{textDecoration: "none"}}><div className='firstImage'>
             <img src={first_img} alt='first_Img'/>
             <p className='campingPlace_text'>Camping place name</p>
             <p className='locationText'>Location</p>
-          </div>
-          <div className='firstImage'>
+          </div></Link>
+          <Link to={"/campingDetailsIn"} style={{textDecoration: "none"}}><div className='firstImage'>
             <img src={second_img} alt='first_Img'/>
             <p className='campingPlace_text'>Camping place name</p>
             <p className='locationText'>Location</p>
-          </div>
-          <div className='firstImage'>
+          </div></Link>
+          <Link to={"/campingDetailsIn"} style={{textDecoration: "none"}}> <div className='firstImage'>
             <img src={third_img} alt='third_Img'/>
             <p className='campingPlace_text'>Camping place name</p>
             <p className='locationText'>Location</p>
-          </div>
+          </div></Link>
 
-          <div className='firstImage'>
+          <Link to={"/campingDetailsIn"} style={{textDecoration: "none"}}><div className='firstImage'>
             <img src={first_img} alt='first_Img'/>
             <p className='campingPlace_text'>Camping place name</p>
             <p className='locationText'>Location</p>
-          </div>
-          <div className='firstImage'>
+          </div></Link>
+          <Link to={"/campingDetailsIn"} style={{textDecoration: "none"}}><div className='firstImage'>
             <img src={second_img} alt='first_Img'/>
             <p className='campingPlace_text'>Camping place name</p>
             <p className='locationText'>Location</p>
-          </div>
-          <div className='firstImage'>
+          </div></Link>
+          <Link to={"/campingDetailsIn"} style={{textDecoration: "none"}}> <div className='firstImage'>
             <img src={third_img} alt='third_Img'/>
             <p className='campingPlace_text'>Camping place name</p>
             <p className='locationText'>Location</p>
-          </div>
+          </div></Link>
 
       </div>
     </WrapperCampingCar>
