@@ -8,6 +8,7 @@ import { Compares_butt_container, MainWrapper_acardion, The_best_main, Wrapper_o
 import first from "../../assets/first_small.png";
 import second from "../../assets/second_small.png";
 import third from "../../assets/third_small.png";
+import { Link } from 'react-router-dom';
 
 export default function AccordionUsage() {
   return (
@@ -195,7 +196,7 @@ export default function AccordionUsage() {
        </div>
 
        <div className='compare_butt_wrapper'>
-          <button className='comare_style'>Compare</button>
+          <Link to={'/CompareComponents'}><button className='comare_style'>Compare</button></Link>
        </div>
   </Compares_butt_container>
 

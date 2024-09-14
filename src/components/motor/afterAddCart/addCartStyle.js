@@ -1,7 +1,10 @@
 import styled from "styled-components";
 
 export const Main_wrapper = styled.div`
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
 
 .main_text_top{
   display: flex;
@@ -83,6 +86,7 @@ export const Main_wrapper = styled.div`
 .right_side_car_image_wrapper {
   overflow-y:scroll;
   height: 600px;
+  margin-left: 20px;
 }
 .car_top_info {
 

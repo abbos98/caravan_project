@@ -15,6 +15,9 @@ import CaruselComponent from './carusel/carusel'
 import CampingInside from './campingPlace/campingDetailsIn/campingInside'
 import AddCart from './motor/afterAddCart/addCart'
 import AccordionUsage from './acardion'
+import Abbos from './acardion'
+import CompareComponents from './compare_button'
+
 
 const RouterComponenets = () => {
   const location = useLocation();
@@ -40,7 +43,11 @@ const RouterComponenets = () => {
         <Route path = "campingDetailsIn" element={<CampingInside />} />
         <Route path = "addCart" element={<AddCart />} />
 
-        <Route path = "/Cart" element={<AccordionUsage />} />
+        {/* <Route path = "/Cart" element={<AccordionUsage />} /> */}
+        <Route path = "/acardion" element={<CompareComponents />} />
+
+
+        
       
        
     </Routes>

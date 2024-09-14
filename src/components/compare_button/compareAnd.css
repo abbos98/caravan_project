@@ -1,0 +1,11 @@
+.background_fon {
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 22px;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(../../assets/card_main.png);
+}
