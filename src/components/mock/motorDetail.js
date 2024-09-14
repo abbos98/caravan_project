@@ -39,7 +39,7 @@ export const campcar = {
         car: {
             img: "https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA4L3Jhd3BpeGVsb2ZmaWNlM19waG90b19vZl9yZWNyZWF0aW9uYWxfdmVoaWNsZV9fc2lkZV92ZWl3X19pc29sYV84NTUzZTA5OC03MTU0LTQ2OGEtOTYwOC0wZDYyYzRmZjMwYjBfMS5qcGc.jpg",
             CarName: "Rolling Retreat",
-            BrandName: "Winnebago Industries",
+            BrandName: "Winnebago ",
             Cost: "93,000,000",  company: "Aidal company",
             place: "17",
             license: "License type"
@@ -83,7 +83,7 @@ export const campcar = {
         car: {
             img: "https://sc04.alicdn.com/kf/Hdcade159f3f149cbbbbbbfd363a8612ar.jpg",
             CarName: "Class-C",
-            BrandName: "Entegra Coach, Inc",
+            BrandName: "Entegra Coach",
             Cost: "160,000,000",  company: "Aidal company",
             place: "15",
             license: "License type"
@@ -138,7 +138,7 @@ export const campcar = {
         car: {
             img: "https://5.imimg.com/data5/NY/NG/ZA/SELLER-56701174/recreation-vehicle-vanity-van-motor-home-rv-caravan-mobile-home-luxury-vehicle-500x500.jpg",
             CarName: "Cabin Feverr",
-            BrandName: "hor Motor Coach",
+            BrandName: "hor Motor",
             Cost: "53,000,000",  company: "Aidal company",
             place: "12",
             license: "License type"
@@ -159,7 +159,7 @@ export const campcar = {
         car: {
             img: "https://pngimg.com/d/caravan_PNG46.png",
             CarName: "Name of the car",
-            BrandName: "The Open Roadster",
+            BrandName: "The Open",
             Cost: "89,000,000",  company: "Aidal company",
             place: "13",
             license: "License type"

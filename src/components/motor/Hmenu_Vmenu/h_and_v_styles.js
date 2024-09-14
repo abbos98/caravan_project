@@ -17,11 +17,11 @@ export const Hmenucha = styled.div`
   flex-direction: column;
   justify-content: space-between;
   padding: 10px;
-  background-color: red;
 }
 .boxcha_imgcha {
   border-radius: 20px;
   height: 132px;
+  width: 202.42px; 
 }
 .wrapper_of_butt {
    display: flex;
@@ -42,7 +42,6 @@ h2 {
 
 .number_grade {
   display:flex;
-  width: 100%;
   justify-content: space-between;
   align-items: end;
   color: var(--text, #373737);
@@ -54,12 +53,13 @@ h2 {
 .start {
   display:flex;
   align-items: center;
-  gap: 3px;
+  justify-content: center;
   color: var(--text, #373737);
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  
 }
 img {
   width: 14px;
@@ -250,10 +250,10 @@ export const RightNavbarRow = styled.div`
   padding: 18px;
   display: flex;
 .Car0 img{
-  max-width: 280px;
   width: 100%;
   height: 143px;
   border-radius: 20px;
+ } 
 }
 .menu-wrap{
     max-width:100%;
@@ -273,7 +273,7 @@ h5{
 }
 .ww {
     display: flex;
-    margin-top: 30px;
+    margin-top: 20px;
     gap: 14px;
 } .to-wrap h2 {
     color: #006DAB;
@@ -287,13 +287,13 @@ h5{
   background-color: white;
   color: #006DAB;
   cursor: pointer;
-  margin-top: 13px;
+  margin-top: -10px;
 }
 .ww :hover{
     background-color:  #006DAB;
     color: white;
  }
-}
+
 
 @media only screen and (max-width: 710px){
   width: 100%;

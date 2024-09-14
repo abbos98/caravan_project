@@ -21,7 +21,7 @@ const Vmenu = () => {
                        style={{textDecoration:'none',color:'black'}}>
                        <div className='tuzatish'>
                        <div className='Lengmenus'>
-                           <div className='Car0'><img src={value.car.img} alt="car-img" /></div>
+                           <div className='Car0'><img style= {{width:"270px"}} src={value.car.img} alt="car-img" /></div>
 
                            <div className='menu-wrap'>
                            <div className='to-wrap'><h3> {value.car.CarName}</h3> <h2>{value.car.Cost}</h2></div>

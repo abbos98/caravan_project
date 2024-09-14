@@ -121,7 +121,7 @@ const Detail = () => {
          <p className='comfort_text'>Heating when driving</p>
          <p className='comfort_lorem'>Fuel heating is now very popular in the industry, but this was not always the case; Camper (once again) led the way in this area over 15 years ago.One of the advantages it offers is that it can heat up your vehicle while you drive, for a more comfortable arrival.</p>
          <div className='heating_butts_wrapper'>
-            <button className='heating_add'>ADD TO CART</button>
+            <Link to={"/AddCart"}><button className='heating_add'>ADD TO CART</button></Link>
             <button className='heating_compare'>COMPARE</button>
          </div>
      </div>

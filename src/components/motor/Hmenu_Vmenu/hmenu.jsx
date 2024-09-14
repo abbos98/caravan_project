@@ -17,7 +17,7 @@ const Hmenu = () => {
                      <NavLink to={`/motor/${value.id}`}
                      style= {{textDecoration: "none", color: "black"}}>
                        <div className='boxcha'>
-                         <img className='boxcha_imgcha' src={value.car.img} alt='car_image'/>
+                         <img style = {{height: '120px'}} className='boxcha_imgcha' src={value.car.img} alt='car_image'/>
                          <div className='wrapper_of_butt'>
                              <h3>{value.car.CarName}</h3>
                                 <div className='number_grade'><h5>{value.car.BrandName}</h5><div className='start'><img src={star} alt='star'/><p>5.3</p></div></div>

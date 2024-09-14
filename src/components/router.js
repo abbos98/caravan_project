@@ -13,6 +13,8 @@ import RegisterComponent from './authentication/register'
 import Footer from '../context/footer'
 import CaruselComponent from './carusel/carusel'
 import CampingInside from './campingPlace/campingDetailsIn/campingInside'
+import AddCart from './motor/afterAddCart/addCart'
+import AccordionUsage from './acardion'
 
 const RouterComponenets = () => {
   const location = useLocation();
@@ -35,7 +37,11 @@ const RouterComponenets = () => {
         <Route path = "/register" element={<RegisterComponent />} />
         <Route path = "/createaccount" element={<Motorjon />} /> 
         <Route path = "/" element={<CaruselComponent />} /> 
-        <Route path = "campingDetailsIn" element={<CampingInside />} /> 
+        <Route path = "campingDetailsIn" element={<CampingInside />} />
+        <Route path = "addCart" element={<AddCart />} />
+
+        <Route path = "/Cart" element={<AccordionUsage />} />
+      
        
     </Routes>
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import { MainDetailWrapperCaravan } from './caravanStyle';
-import { useParams } from 'react-router-dom';
+import { Link, NavLink, useParams } from 'react-router-dom';
 import { caravanCar } from '../mock/caravanDetails';
 import { MainAidal } from './details_caravanStyle';
 
@@ -14,7 +14,7 @@ const Details_caravan = () => {
           <div className='text_buttos_wrapper'>
             <p className='Aidal_text'>Aidal</p>
             <div className='butts_wrapper'>
-               <button className='add_cart_butt'>ADD TO CART</button>
+               <NavLink to={"/aidal_in"}><button className='add_cart_butt'>ADD TO CART</button></NavLink>
                <button className='compare_butt'>COMPARE</button>
             </div>
           </div>
