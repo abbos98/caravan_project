@@ -14,9 +14,9 @@ import Footer from '../context/footer'
 import CaruselComponent from './carusel/carusel'
 import CampingInside from './campingPlace/campingDetailsIn/campingInside'
 import AddCart from './motor/afterAddCart/addCart'
-import AccordionUsage from './acardion'
-import Abbos from './acardion'
 import CompareComponents from './compare_button'
+import BasicTabs from './tabs'
+import AccordionUsage from './acardion'
 
 
 const RouterComponenets = () => {
@@ -41,10 +41,22 @@ const RouterComponenets = () => {
         <Route path = "/createaccount" element={<Motorjon />} /> 
         <Route path = "/" element={<CaruselComponent />} /> 
         <Route path = "campingDetailsIn" element={<CampingInside />} />
-        <Route path = "addCart" element={<AddCart />} />
+        <Route path = "/addCart" element={<AddCart />} />
 
-        {/* <Route path = "/Cart" element={<AccordionUsage />} /> */}
-        <Route path = "/acardion" element={<CompareComponents />} />
+        <Route path = "/Cart" element={<AccordionUsage />} />
+        <Route path = "/compare_button" element={<CompareComponents />} />
+
+
+         <Route path = "abs" element={<BasicTabs />} />
+
+
+
+      
+
+  
+
+
+  
 
 
         

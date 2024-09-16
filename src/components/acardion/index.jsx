@@ -196,7 +196,7 @@ export default function AccordionUsage() {
        </div>
 
        <div className='compare_butt_wrapper'>
-          <Link to={'/CompareComponents'}><button className='comare_style'>Compare</button></Link>
+          <Link to={'/compare_button'}><button className='comare_style'>Compare</button></Link>
        </div>
   </Compares_butt_container>
 

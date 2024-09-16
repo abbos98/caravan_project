@@ -7,6 +7,7 @@ import tidy_car from '../../assets/tidying_image.png';
 import vantilated_img from '../../assets/ventilated_img.png';
 import easy from '../../assets/Easy_access_img.png';
 import heating from '../../assets/heting_img.png';
+import BasicTabs from '../tabs';
 
 
 const Detail = () => {
@@ -136,7 +137,7 @@ const Detail = () => {
 
   </CarInfo>
 
-
+  <BasicTabs />
 
         </div>
        )
