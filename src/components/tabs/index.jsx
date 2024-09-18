@@ -244,6 +244,7 @@ export default function BasicTabs() {
      </Top_text_info>
 
       </CustomTabPanel>
+
       <CustomTabPanel value={value} index={1}>  
 
   
@@ -334,25 +335,19 @@ export default function BasicTabs() {
       </Accordion>
  </div>
 
- <div className='QvsA_wrapper_login'>
-   <p className='qa_style'>Send a question</p>
-   <input className='input_style' type='text'placeholder='Your name'/>
-   <input className='input_style' type='text'placeholder='Your email'/>
-   <input className='input_style_two' type='text'placeholder='Your question'/>
-   <button className='send_question_style'>Send question</button>
- </div>
+
+<EmailComponent />
 
 </Q_vs_A_wrapper_main> 
 
 
       </CustomTabPanel>
-      <CustomTabPanel value={value} index={2}>
-      
 
+      <CustomTabPanel value={value} index={2}>
 
 <FAQ_main_wrapper>
 
-    <div className='first_side_in'>
+  <div className='first_side_in'>
       <Accordion>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
@@ -443,24 +438,18 @@ export default function BasicTabs() {
           </Typography>
         </AccordionDetails>
       </Accordion>
-   </div>
- <div className='QvsA_wrapper_login'>
-   <p className='qa_style'>Have you got a question</p>
-   <input className='input_style' type='text'placeholder='Your name'/>
-   <input className='input_style' type='text'placeholder='Your email'/>
-   <input className='input_style_two' type='text'placeholder='Your question'/>
-   <button className='send_question_style'>Send question</button>
- </div>
+  </div>
 
-<EmailComponent/>
+<EmailComponent />
+
 
 </FAQ_main_wrapper>
     
 
       </CustomTabPanel>
 
+      <CustomTabPanel value={value} index={3}>
 
-<CustomTabPanel value={value} index={3}>
  <Map_side>
    
  <div className='left_side_image'>
@@ -472,23 +461,13 @@ export default function BasicTabs() {
           <div className='email'></div>
       </div>
  </div>
-
-
-<div className='QvsA_wrapper_login'>
-   <p className='qa_style'>Have you got a question</p>
-   <input className='input_style' type='text'placeholder='Your name'/>
-   <input className='input_style' type='text'placeholder='Your email'/>
-   <input className='input_style_two' type='text'placeholder='Your question'/>
-   <button className='send_question_style'>Send question</button>
- </div>
-
-
-
+  
+ <EmailComponent />
 
 
  </Map_side>
 
- </CustomTabPanel>
+      </CustomTabPanel>
       
     </Box>
   );

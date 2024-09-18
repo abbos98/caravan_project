@@ -1,10 +1,6 @@
 import React, { useState } from 'react';
 import "./motorbek.css";
-import { Left_side, Main_items, Main_Murodil, Right_side,} from './motorxon';
-import some from "../../assets/down_icon_more_larger.svg";
-import car_first from "../../assets/first_car.png";
-import car_second from "../../assets/second_car.png";
-import car_third from "../../assets/third_car.png";
+import {  Main_items, Main_Murodil, Right_side,} from './motorxon';
 import iconh from "../../assets/down_icon_more_larger.svg";
 import menu from "../../assets/menu_icon.png";
 import drop_down from "../../assets/drop_down.png";
@@ -12,6 +8,10 @@ import Hmenu from './Hmenu_Vmenu/hmenu';
 import Vmenu from './Hmenu_Vmenu/vmenu';
 import down_icon from "../../assets/down_iconss.svg";
 import AccordionUsage from '../acardion';
+import MenuIcon from '../../assets/drop_down.png';
+import { Link } from 'react-router-dom';
+import TemporaryDrawer from '../dropDown/right_dropDown';
+
 
 
 
@@ -43,6 +43,12 @@ const Motorjon = () => {
 <Right_side>
 
   <div className='items_wrapper'>
+<TemporaryDrawer />
+<div className='anchore_wrapper'>
+
+</div>
+
+
     <div className='item_text_wrapper'><p className='item'>Item</p><p className='number'>25.156</p></div>
   
     <div className='sort_by_wrapper'>
@@ -67,6 +73,7 @@ const Motorjon = () => {
 <div className='phone_container'>
 <div className='phone_items_wrapper'>
   <div className='top_side_phone'>
+  <TemporaryDrawer />
     <div className='phone_item_text'><p className='phone_item'>Item</p><p className='phone_num'>25.156</p></div>
     <div className='phone_icons_wrapper'>
         <div className='phone_menu_wr' onClick={eachMenu}><img src={menu} alt='menu'/></div>

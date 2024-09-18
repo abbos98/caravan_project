@@ -6,12 +6,13 @@ import down from "../assets/down_icon.svg";
 import infort from "../assets/infort_of.svg";
 import three_line from "../assets/three_line.png";
 import { Link } from 'react-router-dom';
+import NavbarDropDownComponent from '../components/dropDown/navbar_DropDown';
 
 const Navbar = () => {
   return (
     <NavbarOn>
       <div className='sss'>
-         <img src={three_line} alt='drow_down_icon'/>
+       <div className='menu_frop_wrap'> <NavbarDropDownComponent/></div>
          <Link style={{textDecoration: "none"}} to={"/"}><h1>Camper</h1></Link>
       </div>
     <Murodil_div>
@@ -35,7 +36,7 @@ const Navbar = () => {
 
        <div className='eng'><h5>Eng</h5><img src={down} alt="img" /></div>
 
-       <div><img className='kal' src={three_line} alt='three_line'/></div> 
+       <div className='menu_frop_wrap_for_phone'> <NavbarDropDownComponent/></div>
     </div>
    
     </NavbarOn>

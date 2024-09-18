@@ -9,9 +9,9 @@ export const NavbarOn = styled.div `
    
 .sss {
    flex: 1;
-   img {
-      display: none;
-   }
+}
+.menu_frop_wrap{
+   display: none;
 }
 
 h1 {
@@ -41,7 +41,9 @@ h1 {
  .kal {
  display: none;
  }
-
+.menu_frop_wrap_for_phone {
+   display: none;
+}
 
 @media only screen and (max-width: 1240px) {
   .sss {
@@ -55,12 +57,9 @@ h1 {
       cursor: pointer;
    }
   }
-   .three_line_icon {
-  display: flex;
-  width: 30px;
-  height: 30px;
-  cursor: pointer;
- } 
+ .menu_frop_wrap {
+   display: flex;
+ }
  .Axror_div {
    flex: 3;
    display: flex;
@@ -74,7 +73,7 @@ h1 {
          display: none;
       }
    }
-   .three_line_icon {
+   .menu_frop_wrap{
       display: none;
    }
    .person_img {
@@ -87,7 +86,9 @@ h1 {
       display: flex;
       cursor: pointer;
    }
-   
+   .menu_frop_wrap_for_phone {
+      display: flex;
+   }
  }
 }
 //////////////////////////////////////////

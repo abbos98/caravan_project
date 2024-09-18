@@ -1,26 +1,32 @@
 import styled from "styled-components";
 
 export const The_best_main = styled.div`
-max-width: 242px;
-width: 100%;
-height: 2595px;
-padding-top: 35px;
+  max-width: 222px;
+  width: 100%;
+  height: 2595px;
+  padding-top: 35px;
 
 .cost_style_in {
-   color: var(--text, #373737);
-font-family: Montserrat;
-font-size: 18px;
-font-style: normal;
-font-weight: 600;
-line-height: 100%; 
-border-bottom: 1px solid gray;
+  color: var(--text, #373737);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%; 
+  border-bottom: 1px solid gray;
+}
+
+
+@media only screen and (max-width:1240px) {
+  
 }
 `
+
 
 export const MainWrapper_acardion = styled.div`
  
 .from_vs_to {
   display: flex;
+  justify-content: center;
   gap: 25px;
 }
 .from_text {

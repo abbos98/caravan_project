@@ -59,23 +59,37 @@ export const Small_phone =styled.div `
 export const Right_side = styled.div `
    display: flex;
    flex-direction: column;
+   justify-content: start;
    margin-top: 50px;
+   padding-top: 0px;
 
 
 .phone_container {
- display: none;
+  display: none;
 }
 .items_wrapper {
    display: flex;
    align-items: center;
    justify-content: space-between;
    max-width: 956px;
+   width: 100%;
    border-bottom: 1px solid gray;
    padding-bottom: 15px;
+}
+.menuIcon_style {
+   display: none;
+}
+.anchore_wrapper {
+   display: none;
 }
 .item_text_wrapper {
    display: flex;
    align-items: center;
+   padding-top: 15px;
+  
+}
+.main_not_left {
+   display: none;
 }
 .item {
    color: var(--text, #373737);
@@ -105,6 +119,7 @@ export const Right_side = styled.div `
    font-style: normal;
    font-weight: 500;
    line-height: 100%;
+   padding-top: 15px;
 }
 .sort_by_select {
    width: 227px;
@@ -193,7 +208,12 @@ export const Right_side = styled.div `
 }
 
 @media only screen and (max-width: 1240px) {
-   
+.menuIcon_style {
+   display: flex;
+}
+.anchore_wrapper {
+   display: flex;
+}
 .items_wrapper {
       width: 674px;
    }

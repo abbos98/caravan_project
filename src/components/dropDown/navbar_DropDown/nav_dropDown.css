@@ -1,0 +1,10 @@
+.texts_wrapper {
+  padding: 25px;
+  gap: 20px;
+}
+.text_style {
+  cursor: pointer;
+}
+.text_style:hover {
+  text-decoration: underline;
+}

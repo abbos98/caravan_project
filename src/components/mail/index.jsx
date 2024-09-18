@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import { Mail_wrapper } from './mailStyle';
 
 export const EmailComponent = () => {
   const form = useRef();
@@ -8,7 +9,7 @@ export const EmailComponent = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm('service_9x4yjd7', 'template_703qz2l', form.current, {
+      .sendForm('service_wkq66y7', 'template_703qz2l', form.current, {
         publicKey: 'hkaRDx_2p4rN1BrWA',
       })
       .then(
@@ -22,14 +23,18 @@ export const EmailComponent = () => {
   };
 
   return (
+    <Mail_wrapper>
     <form ref={form} onSubmit={sendEmail}>
-      <label>Name</label>
-      <input type="text" name="user_name" />
-      <label>Email</label>
-      <input type="email" name="user_mail" />
-      <label>Message</label>
-      <textarea name="message" />
-      <input type="submit" value="Send" />
+      <div className='style_text_wrap'>
+        <p className='have_you_style'>Have you got a question</p>
+      </div>
+      <div className='inputs_wrapper'>
+      <input className='name_user_style' type="text" name="user_name" placeholder='Your name' />
+      <input className='name_user_style' type="email" name="user_mail"placeholder='Your email' />
+      <textarea className='your_question_style' name="message" />
+      <input className='submit_style's type="submit" value="Send" placeholder=' padding-left: 20px;'/>
+      </div>
     </form>
+    </Mail_wrapper>
   );
 };

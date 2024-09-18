@@ -15,8 +15,11 @@ import CaruselComponent from './carusel/carusel'
 import CampingInside from './campingPlace/campingDetailsIn/campingInside'
 import AddCart from './motor/afterAddCart/addCart'
 import CompareComponents from './compare_button'
-import BasicTabs from './tabs'
 import AccordionUsage from './acardion'
+import TemporaryDrawer from './dropDown/right_dropDown'
+import NavbarDropDownComponent from './dropDown/navbar_DropDown'
+
+
 
 
 const RouterComponenets = () => {
@@ -34,7 +37,7 @@ const RouterComponenets = () => {
         <Route path = {"/caravan"} element = {<Caravan />} />
         <Route path = {"/tuning"} element = {<Tuning />} />
         <Route path = {"/usedcar"} element = {<UsedCar />} />
-        <Route path = {"camping place"} element = {<CampingPlace />} />
+        <Route path = {"/camping place"} element = {<CampingPlace />} />
         <Route path = "*" element={<NotFoundComponent />} />
         <Route path = "/login" element={<LoginComponent />} />
         <Route path = "/register" element={<RegisterComponent />} />
@@ -42,18 +45,18 @@ const RouterComponenets = () => {
         <Route path = "/" element={<CaruselComponent />} /> 
         <Route path = "campingDetailsIn" element={<CampingInside />} />
         <Route path = "/addCart" element={<AddCart />} />
-
         <Route path = "/Cart" element={<AccordionUsage />} />
         <Route path = "/compare_button" element={<CompareComponents />} />
+{/* 
+         <Route path = "abs" element={<BasicTabs />} /> */}
+ <Route path = "/abbos" element={<TemporaryDrawer />} />
 
 
-         <Route path = "abs" element={<BasicTabs />} />
-
-
-
+ 
+ 
       
 
-  
+ 
 
 
   

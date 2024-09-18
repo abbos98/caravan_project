@@ -200,23 +200,18 @@ export const Q_vs_A_wrapper_main = styled.div`
 `
 
 export const FAQ_main_wrapper = styled.div`
-  display: flex;
-  justify-content: center;
-  
-  margin-top: 50px;
-  background-color: red;
+ display: flex;
+ justify-content: space-between;
+ padding: 0px 30px;
 
 .first_side_in {
   max-width: 727px;
   width: 100%;
-  height: 60px;
- 
+  margin-top: 80px;
 }
-
 .QvsA_wrapper_login {
   max-width: 450px;
   width: 100%;
-  height: 452px;
   border-radius: 10px;
   border: 1px solid rgba(0, 109, 171, 0.10);
   background: #FFF;
@@ -329,18 +324,21 @@ export const FAQ_main_wrapper = styled.div`
 
 export const Map_side = styled.div`
   display: flex;
+  justify-content: space-between;
   margin-top: 40px;
   margin-bottom: 80px;
   padding: 0px 30px;
+  
 
 .left_side_image {
-
+  margin-top: 50px;
 }
 .imaage_wrap_jh {
 
 }
 .imaage_wrap_style {
-  width: 707px;
+  max-width: 707px;
+  width: 100%;
   height: 298px;
   border-radius: 10px;
   background: url(<path-to-image>) lightgray -236.007px -34.061px / 173.41% 152.73% no-repeat;
@@ -351,14 +349,16 @@ export const Map_side = styled.div`
   margin-top: 28px;
 }
 .phone_num {
-  width: 340px;
+  max-width: 340px;
+  width: 100%;
   height: 109px;
   border-radius: 8px;
   background: #FFF;
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
 }
 .email {
-  width: 340px;
+  max-width: 340px;
+  width: 100%;
   height: 109px;
   border-radius: 8px;
   background: #FFF;
@@ -439,7 +439,21 @@ export const Map_side = styled.div`
   background-color: aliceblue;
   color: black;
 }
+
+
+@media only screen and (max-width: 1240px) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+
+
 `
+
 
 
 
